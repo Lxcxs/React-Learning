@@ -1,8 +1,9 @@
 import './App.css';
+import { Input01 } from './components/input 1';
+import { Input02 } from './components/input 2';
 // import { CustomHooks } from './components/customHooks';
 // import { UContext } from './components/useContext';
-import React from 'react';
-import { CustomHooks2 } from './components/customHooks 2';
+// import { CustomHooks2 } from './components/customHooks 2';
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
     <div className='container'>
       {/* <UContext /> */}
       {/* <CustomHooks /> */}
-      <CustomHooks2 />
+      {/* <CustomHooks2 /> */}
+      {/* <Input01 /> */}
+      <Input02 />
     </div>
 
 

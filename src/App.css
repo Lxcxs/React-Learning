@@ -1,3 +1,50 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+button {
+  cursor: pointer;
+  background-color: #408cff;
+  padding: .8em 1.2em;
+  border: 3px solid #9fe9fd;
+  border-radius: .5em;
+  box-shadow: 0 0 0 1px #408cff;
+  transition: .2s;
+}
+button:hover {
+  background-color: #287eff;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+, textarea {
+  display: block;
+  border: 1px solid #ccc;
+  padding: .8rem;
+  border-radius: .3em;
+  background: #eee;
+  transition: .2s;
+  margin-bottom: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea {
+  outline: none;
+  border-color: #256aff;
+  background: #fff;
+  box-shadow: 0 0 0 3px #85d2ff;
+}
+
+
+
 .App {
   text-align: center;
 }
