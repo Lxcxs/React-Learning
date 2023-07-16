@@ -1,6 +1,8 @@
 import './App.css';
-import { Input01 } from './components/input 1';
-import { Input02 } from './components/input 2';
+// import { CheckBox01 } from './components/checkbox 1';
+import { InputTests } from './components/inputComponents';
+// import { Input01 } from './components/input 1';
+// import { Input02 } from './components/input 2';
 // import { CustomHooks } from './components/customHooks';
 // import { UContext } from './components/useContext';
 // import { CustomHooks2 } from './components/customHooks 2';
@@ -13,7 +15,9 @@ function App() {
       {/* <CustomHooks /> */}
       {/* <CustomHooks2 /> */}
       {/* <Input01 /> */}
-      <Input02 />
+      {/* <Input02 /> */}
+      {/* <CheckBox01 /> */}
+      <InputTests />
     </div>
 
 
