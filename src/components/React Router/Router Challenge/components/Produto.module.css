@@ -1,0 +1,29 @@
+.produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.produto img {
+    margin-bottom: 2rem;
+}
+
+.produto h1 {
+    margin-bottom: .3em;
+}
+
+.preco {
+    background: #91fb5d;
+    color: #017e01;
+    font-weight: bold;
+    padding: .2em .3em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .2em;
+}
+
+.descricao {
+    margin-top: 1em;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}

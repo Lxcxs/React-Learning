@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.RChallenge {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh + 10rem);
+    max-width: 40rem;
+    margin: 0 auto;
+}
+.content {
+    flex: 1;
+}
+
+:global(.active),.link:hover {
+    background-color: #555555;
+    color: #eee;
+}
+
+img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+.animaLeft {
+    transform: translateX(-20px);
+    opacity: 0;
+    animation: animeLeft .3s forwards;
+}
+
+.loading {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: transparent;
+    animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animeLeft {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}

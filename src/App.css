@@ -1,19 +1,13 @@
 *{
   font-family: 'Nunito', sans-serif;
 }
-div.container {
-  margin: 5em auto;
-  padding: 0 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 a {
   color: #eee; 
   padding: 0 .5em;
 }
 a.active {
-  color: tomato;
+  color: rgb(255, 255, 255);
 }
 form {
   width: 100%;
